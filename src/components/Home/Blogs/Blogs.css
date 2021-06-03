@@ -1,0 +1,28 @@
+.blog-card {
+  width: 20rem;
+  float: left;
+  margin: 10px 20px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px lightgray;
+  border: 0.5px solid lightgray;
+}
+.learn-btn{
+    display: none;
+}
+.blog-card:hover{
+    background-image: linear-gradient(to right,#00fff6,#00d1ca);
+    color: white;
+}
+.blog-card:hover .card-hover{
+    display: none;
+}
+.blog-card:hover .learn-btn{
+    margin-top: 70px;
+    display: block;
+}
+.blog-card:hover .blog-title{
+    margin-left: -100px;
+}
+.blog-card:hover .info-icon{
+    color: white;
+}

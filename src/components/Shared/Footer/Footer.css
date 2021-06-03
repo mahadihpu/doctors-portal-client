@@ -1,0 +1,20 @@
+footer .links a{
+    text-decoration: none;
+    color: gray;
+}
+footer{
+    background: url(../../../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social-icon{
+    font-size: 45px;
+    margin:10px;
+    color: #00d1ca;
+}
+span{
+    background-color: #00d1ca;
+    padding:10px;
+    margin-top:5px;
+    color: white;
+}
