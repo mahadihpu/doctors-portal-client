@@ -8,6 +8,8 @@ import Home from './components/Home/Home/Home';
 import Appointment from './components/Appointment/Appointment/Appointment';
 import Login from './components/Appointment/Login/Login/Login';
 import Dashboard from './components/Dashboard/Dashboard/Dashboard';
+import AllAppointments from './components/AllAppointments/AllAppointments';
+import AddDoctor from './components/AddDoctor/AddDoctor';
 
 
 function App() {
@@ -19,6 +21,12 @@ function App() {
         </Route>
         <Route path="/dashboard/appointment">
           <Dashboard />
+        </Route>
+        <Route path="/dashboard/allAppointments">
+          <AllAppointments />
+        </Route>
+        <Route path="/dashboard/addDoctor">
+         <AddDoctor />
         </Route>
         <Route path="/login">
           <Login />
